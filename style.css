@@ -1,0 +1,199 @@
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo {
+    width: 70px;
+    display: inline-block;
+    margin-top: 20px;
+
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px ;
+    cursor: pointer;
+    font-weight: bold;
+    
+}
+.headline:hover {
+    color: green;
+}
+.locationicon {
+    width: 20px;
+    margin-left: 500px;
+}
+.sign {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 40px;
+    background-color: white;
+    cursor: pointer;
+
+}
+.sign:hover {
+    background-color: rgb(155, 150, 150);
+}
+.join {
+    border-radius: 40px;
+    background-color: black;
+    color: white;
+    
+   cursor: pointer;
+  
+  
+}
+.join:hover {
+    opacity: 0.6;
+}
+.secondrow{
+    background-color: whitesmoke;
+    border-bottom-width: 1px;
+    border-bottom-style: double;
+    border-bottom-color: gray;
+    width: 100%;
+}
+.humberger {
+    display: none;
+}
+.rowone{
+    background-color: #006241;
+    
+}
+.let {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    font-size: 50px;
+}
+.letsub {
+    color: white;
+    font-size: 25px;
+}
+.letbutton{
+    text-align: center;
+    color: white;
+}
+.letbuttonone {
+    border: solid;
+    cursor: pointer;
+    border-radius: 40px;
+    border-color:  rgb(171, 164, 164);
+    color: white;
+    background-color: #006241;
+    padding: 5px;
+}
+.letbuttonone:hover {
+    background-color: #03442e;
+}
+.rowsecond {
+    background-color: #ef3340;
+}
+.letsecond {
+    color: white;
+    text-align: center;
+    padding-top: 100px;
+}
+.letsubsecond {
+    color: white;
+    margin-left: 10px;
+    font-size: 20px;
+}
+.letbuttonsecond {
+    background-color: #ef3340;
+    cursor: pointer;
+    border-radius: 40px;
+    color: white;
+    border: solid;
+    border-color:  rgb(171, 164, 164);
+}
+.letbuttonsecond:hover {
+    background-color: #b90410;
+}
+
+.rowthree {
+    background-color: #b37697;
+}
+.letbuttonthree {
+    background-color: #b37697;
+    cursor: pointer;
+    border-radius: 40px;
+    color: white;
+    border: solid;
+    border-color:  rgb(171, 164, 164);
+}
+.letbuttonthree:hover {
+    background-color: #85526d;
+}
+.thirdrow {
+    height: 90px;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 200px;
+}
+.rowfooter {
+    color: black;
+    
+}
+.footer-heading{
+    font-size: 17px;
+    margin-bottom: 20px;
+
+}
+.footersub {
+    color: grey;
+    cursor: pointer;
+}
+.footersub:hover {
+    color: black;
+}
+.lastsub {
+    margin-top: 20px;
+}
+
+.endsub {
+    color:  grey;
+    font-size: 13px;
+}
+span{
+    cursor: pointer;
+}
+span:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px){
+    .humberger {
+        display: block;
+        font-size: 25px;
+    }
+    nav ul{
+        background: white;
+        position: fixed;
+        top: 0;
+        right: -200px;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+        z-index: 2;
+
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
+    }
+    nav ul .humberger {
+        position: absolute;
+        top: 25px;
+        left: 25px;
+        cursor: pointer;
+    }
+
+}
+
+
